@@ -1,91 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Source+Sans+Pro:wght@400;700&display=swap');
 
-:root{
-    --primary-color:#7E22CE;
-    --pink:#831843;
+:root {
+    --primary-color: #7E22CE;
+    --pink: #831843;
+    --offwhite-color: #FCA5A5;
 }
-body{
+
+body {
     font-family: 'PT Sans', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
+    margin:0px
 }
-hr{
+
+hr {
     margin: 2rem 0rem;
 }
 
-.container{
+.container {
     padding-left: 1rem;
-    padding-right:1rem;
+    padding-right: 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
 
 /**link**/
-.link{
+.link {
     text-decoration: none;
-    padding: 0.5rem 1rem ;
+    padding: 0.5rem 1rem;
 }
-.link-primary{
-    background-color:var(--primary-color);
+
+.link-primary {
+    background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color:white;
+    color: white;
 }
-.link-secondary{
-    color:var(--primary-color);
+
+.link-secondary {
+    color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
 
 /**List**/
-.list-non-bullets{
+.list-non-bullets {
     list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
-    padding : 0rem 0.5rem;
+    padding: 0rem 0.5rem;
 }
+
 /**navigation**/
-.navigation{
+.navigation {
     background-color: var(--primary-color);
-    color:white;
+    color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-size: 1.1rem;
     font-weight: bold;
 }
-.navigation .link{
-    color:white;  
+
+.navigation .link {
+    color: white;
 }
-.navigation  .link-active{
+
+.navigation .link-active {
     font-weight: bold;
 }
 
-.navigation .nav-pills{
-    text-align:center;
+.navigation .nav-pills {
+    text-align: right;
 }
+
 /**header**/
-.hero{
+.hero {
+
     padding: 2rem;
 }
 
-.hero .hero-image{
-    max-width:450px;
-    display:block;
-    margin:auto;
+.hero .hero-image {
+    max-width: 450px;
+    display: block;
+    margin: auto;
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     text-align: center;
-    color:var(--pink);
-    padding-top:1rem;
+    color: var(--pink);
+    padding-top: 1rem;
 }
 
-.hero .hero-heading .heading-inverted{
-    color:var(--primary-color);
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+/**section**/
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--offwhite-color);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align:center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start:0px
 }
