@@ -3,7 +3,7 @@
 :root {
     --primary-color: #7E22CE;
     --pink: #831843;
-    --offwhite-color: #FCA5A5;
+    --offwhite-color: #D6D3D1;
 }
 
 body {
@@ -14,6 +14,10 @@ body {
 
 hr {
     margin: 2rem 0rem;
+}
+
+.margin-md{
+    margin:1rem;
 }
 
 .container {
@@ -30,6 +34,8 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom:1rem; */
 }
 
 .link-primary {
@@ -81,8 +87,8 @@ hr {
 
 /**header**/
 .hero {
-
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-image {
@@ -128,4 +134,9 @@ hr {
 
 .footer ul{
     padding-inline-start:0px
+}
+
+.footer .footer-header{
+    font-weight:bold;
+    font-size:large;
 }

@@ -1,132 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component library</title>
-
-    <link href="style.css" rel="stylesheet" />
+    <title>home | aneena</title>
+    <link href="/style.css" rel="stylesheet" />
 </head>
-
 <body>
 
-    <h1>Aneena's compnent library</h1>
-    <p>I want to make a library which would make all my projects look good and have it in one</p>
-
-    <br>
-    <h2>@typography</h2>
-    <h1>This is the biggest of all - H1 tag</h1>
-    <h2>this is the second biggest -H2 tag</h2>
-    <p>p tag-this is a normat text which would wrap at the end like a paragragh.</p>
-    <p>this paragragh will have a <strong>bold</strong> text</p>
-    <small>this is a relatively smaller text made with -small tag</small>
-
-    <hr>
-
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div class="container">this is a fluid container it will go till the end of this page.</div>
-
-    <h2>@center container</h2>
-    <div class="container-center">this is a centered container it will go till specified width.</div>
-    <hr>
-
-    <h2>@links</h2>
-    <a class="link link-primary" href="https://google.com">primary link</a>
-    <a class="link link-secondary" href="/">secondary link</a>
-    <hr>
-
-    <h2>@lists</h2>
-    <p>this list will not have bullets</p>
-    <h3>Unordered Lists</h3>
-    <ul class="list-non-bullets">
-        <li>Item One</li>
-        <li>Item Two</li>
-    </ul>
-    <h3>Unordered Inline lists</h3>
-    <ul class="list-non-bullets">
-        <li class="list-item-inline">Inline Item One</li>
-        <li class="list-item-inline">Inline Item Two</li>
-        <li class="list-item-inline">Inline Item Three</li>
-    </ul>
-    <h3>Reverse order list</h3>
-    <ol reversed>
-        <li>bread</li>
-        <li>butter</li>
-        <li>jam</li>
-    </ol>
-
-    <hr>
-    <h2>@nav</h2>
+    
     <nav class="navigation container">
-        <div class="nav-brand">I'm brand</div>
+        <div class="nav-brand">My portfolio</div>
         <ul class="list-non-bullets nav-pills">
             <li class="list-item-inline">
                 <a class="link link-active" href="/">home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link " href="/">products</a>
+                <a class="link " href="projects.html">projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link " href="/">about</a>
+                <a class="link " href="blogs.html">blogs</a>
             </li>
         </ul>
     </nav>
-    <hr>
-
-    <h2>@header</h2>
+    
+    
 
     <header class="hero">
         <img class="hero-image"
             src="https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg" />
         <h1 class="hero-heading">Aneena, <span class="heading-inverted">the web developer</span></h1>
     </header>
-
-
-    <hr>
-
-    <h2>@section</h2>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I am familiar with html5,CSS3,Javascript,Nodejs,Bash and web hosting.</p>
+        </div>
+    </section>
     <section class="section">
         <div class="container container-center">
-            <h1>white section</h1>
-            <p>The time has come for Kuma — the platform that powers MDN Web Docs — to evolve. For quite some time now,
-                the MDN developer team has been planning a radical platform change, and we are ready to start sharing
-                the details of it. The question on your lips might be “What does a Kuma evolve into? A KumaMaMa?”</p>
+            <h1>Projects</h1>
+            <p>I would like to showcase my work and hence you can have a look at my projects hosted online.</p>
+            <a class="link link-primary" href="projects.html">See Projects</a>
         </div>
     </section>
     <section class="section ow">
         <div class="container container-center">
-            <h1>offwhite section</h1>
-            <p>For those of you not so into Pokémon, the question might instead be “How exactly is MDN changing, and how
-                does it affect MDN users and contributors”?
-
-                For general users, the answer is easy — there will be very little change to how we serve the great
-                content you use everyday to learn and do your jobs.</p>
+            <h1>Blogs</h1>
+            <p>I am working on some tech and non tech blogs.You can read it here</p>
+            <a class="link link-primary" href="blogs.html">Blogs</a>
         </div>
     </section>
-    <hr>
-
-    <h1>@footer</h1>
     <footer class="footer">
-        <div class="footer-header">some small heading inside footer</div>
+        <div class="footer-header">Let's web talk</div>
         <ul class="social-links list-non-bullets">
             <li class="list-item-inline">
-                <a class="link" href="/">socialone</a>
+                <a class="link" href="/">github</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">socialtwo</a>
+                <a class="link" href="/">twitter</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">socialthree</a>
+                <a class="link" href="/">linkedin</a>
             </li>
         </ul>
     </footer>
-    <hr>
-
-
-
-    <!-- <div style="height:30vh;"></div> -->
 </body>
-
 </html>
